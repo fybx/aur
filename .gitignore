@@ -1,0 +1,11 @@
+# ./linux
+linux/linux-*
+linux/qomix-*
+linux/config
+linux/keys
+linux/pkg
+linux/src
+
+# ./spacedrive
+spacedrive/spacedrive-*
+spacedrive/src
