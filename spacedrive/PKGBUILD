@@ -1,7 +1,7 @@
 # Maintainer: Yigid BALABAN <fyb@fybx.dev>
 
 pkgname='spacedrive'
-pkgver=0.2.14
+pkgver=0.3.0
 pkgrel=1
 pkgdesc='Spacedrive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.'
 arch=('x86_64')
@@ -26,7 +26,7 @@ build() {
 	export CC=clang
 
 	pnpm prep
-	pnpm tauri build --bundles app -- --no-default-features
+	pnpm tauri build --bundles appimage -- --no-default-features
 }
 
 package() {
