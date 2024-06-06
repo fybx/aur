@@ -5,7 +5,16 @@ linux/config
 linux/keys
 linux/pkg
 linux/src
+linux/.git
 
 # ./spacedrive
 spacedrive/spacedrive-*
 spacedrive/src
+spacedrive/pkg
+
+# ./spacedrive-bin
+spacedrive-bin/pkg
+spacedrive-bin/src
+spacedrive-bin/Spacedrive*
+spacedrive-bin/spacedrive*
+
